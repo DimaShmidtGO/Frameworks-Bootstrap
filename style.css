@@ -1,0 +1,120 @@
+
+.logo {
+    height: 50px;
+    padding-left: 20px;
+}
+
+.icon-search {
+    background-image: url('search.svg');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 10px 10px;
+    padding-left: 20px;
+}
+
+.icon-search:not(:placeholder-shown) {
+    background-image: none;
+}
+
+.input-group {
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.btn-lg {
+    position: relative;
+}
+
+.btn-lg i.bi-5-circle-fill {
+    font-size: 1.5rem;
+    top: 0;
+    right: 0;
+}
+
+.name {  
+    font-weight: bold;
+    top: 90px;
+    left: 18px;
+}
+.stories_group {
+    height: 150px;
+}
+
+@media (max-width: 900px) {
+    .input-group {
+        width: 20%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .fs-5 p{
+      padding-right: 10px;
+      }
+
+      .fs-5 p b {
+        display: flex;
+        justify-content: center;
+      }
+}
+
+    @media (max-width: 720px) {
+    .d-flex .btn {
+        font-size: 0.8rem;
+    }
+
+    .d-flex .bi {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .no-margin{
+        margin-top: 0 !important;
+    }
+    .logo {
+        height: 30px;
+    }
+    .form-control {
+        padding: 0;
+    }
+    .icon-search {
+        display: none;
+    }
+    .btn-lg i.bi-5-circle-fill {
+        font-size: 1.1rem;
+        top: 0;
+        right: 3px;
+    }
+   
+    .img-fluid-photo {
+        padding: 0 20px 0 20px;
+        width: 100%;
+    }
+    .fs-5 p{
+        font-size: 17px;
+        padding-right: 20px;
+      }
+      .col-7 p {
+        width: 200px;
+        font-size: 14px;
+    }
+    .stories_group {
+        height: 60px;
+    }
+
+    .stories {
+    width: 100%;
+    top: -4px;
+    left: -3px;  
+ }
+    .name {
+    margin: 0;
+    top: 50px;
+    left: 0;
+    font-weight: 600;
+ }
+
+}
